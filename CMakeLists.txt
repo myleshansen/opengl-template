@@ -21,6 +21,8 @@ add_executable(OpenGL src/main.cpp
         src/BufferLayout.h
         src/VertexBufferLayout.h
         src/VertexBuffer.cpp
+        src/Shader.cpp
+        src/Shader.h
 )
 
 target_include_directories(OpenGL PRIVATE dependencies)
