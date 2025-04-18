@@ -6,6 +6,7 @@
 #define RENDERER_H
 
 #include <GL/glew.h>
+#include <iostream>
 
 #ifndef ASSERT_H
 #define ASSERT_H

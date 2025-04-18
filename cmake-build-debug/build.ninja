@@ -63,15 +63,29 @@ build CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: CXX_COMPILER__OpenGL_unscanned_D
   OBJECT_DIR = CMakeFiles/OpenGL.dir
   OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir/src
 
-build CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /Users/myles/CLionProjects/OpenGL/src/VertexBuffer.cpp || cmake_object_order_depends_target_OpenGL
-  DEP_FILE = CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o.d
+build CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /Users/myles/CLionProjects/OpenGL/src/IndexBuffer.cpp || cmake_object_order_depends_target_OpenGL
+  DEP_FILE = CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o.d
   FLAGS = -g -std=gnu++20 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -fcolor-diagnostics -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
   INCLUDES = -I/Users/myles/CLionProjects/OpenGL/dependencies -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
   OBJECT_DIR = CMakeFiles/OpenGL.dir
   OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir/src
 
-build CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /Users/myles/CLionProjects/OpenGL/src/IndexBuffer.cpp || cmake_object_order_depends_target_OpenGL
-  DEP_FILE = CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o.d
+build CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /Users/myles/CLionProjects/OpenGL/src/VertexArray.cpp || cmake_object_order_depends_target_OpenGL
+  DEP_FILE = CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o.d
+  FLAGS = -g -std=gnu++20 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -fcolor-diagnostics -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
+  INCLUDES = -I/Users/myles/CLionProjects/OpenGL/dependencies -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
+  OBJECT_DIR = CMakeFiles/OpenGL.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir/src
+
+build CMakeFiles/OpenGL.dir/src/BufferLayout.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /Users/myles/CLionProjects/OpenGL/src/BufferLayout.cpp || cmake_object_order_depends_target_OpenGL
+  DEP_FILE = CMakeFiles/OpenGL.dir/src/BufferLayout.cpp.o.d
+  FLAGS = -g -std=gnu++20 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -fcolor-diagnostics -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
+  INCLUDES = -I/Users/myles/CLionProjects/OpenGL/dependencies -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
+  OBJECT_DIR = CMakeFiles/OpenGL.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir/src
+
+build CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /Users/myles/CLionProjects/OpenGL/src/VertexBuffer.cpp || cmake_object_order_depends_target_OpenGL
+  DEP_FILE = CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o.d
   FLAGS = -g -std=gnu++20 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -fcolor-diagnostics -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
   INCLUDES = -I/Users/myles/CLionProjects/OpenGL/dependencies -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
   OBJECT_DIR = CMakeFiles/OpenGL.dir
@@ -85,7 +99,7 @@ build CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: CXX_COMPILER__OpenGL_unscanne
 #############################################
 # Link the executable OpenGL
 
-build OpenGL: CXX_EXECUTABLE_LINKER__OpenGL_Debug CMakeFiles/OpenGL.dir/src/main.cpp.o CMakeFiles/OpenGL.dir/src/Renderer.cpp.o CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o | /usr/local/lib/libglfw.3.4.dylib /usr/local/lib/libGLEW.2.2.0.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/System/Library/Frameworks/OpenGL.framework
+build OpenGL: CXX_EXECUTABLE_LINKER__OpenGL_Debug CMakeFiles/OpenGL.dir/src/main.cpp.o CMakeFiles/OpenGL.dir/src/Renderer.cpp.o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o CMakeFiles/OpenGL.dir/src/BufferLayout.cpp.o CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o | /usr/local/lib/libglfw.3.4.dylib /usr/local/lib/libGLEW.2.2.0.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/System/Library/Frameworks/OpenGL.framework
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libglfw.3.4.dylib  /usr/local/lib/libGLEW.2.2.0.dylib  -framework OpenGL  -framework OpenGL
   LINK_PATH = -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks

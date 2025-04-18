@@ -5,8 +5,6 @@
 #ifndef VERTEXBUFFER_H
 #define VERTEXBUFFER_H
 
-
-
 class VertexBuffer {
 private:
     unsigned int m_RendererID;

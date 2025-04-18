@@ -13,10 +13,14 @@ file(COPY ${CMAKE_SOURCE_DIR}/res/shaders DESTINATION ${CMAKE_BINARY_DIR}/res)
 add_executable(OpenGL src/main.cpp
         src/Renderer.cpp
         src/Renderer.h
-        src/VertexBuffer.cpp
-        src/VertexBuffer.h
         src/IndexBuffer.cpp
         src/IndexBuffer.h
+        src/VertexArray.cpp
+        src/VertexArray.h
+        src/BufferLayout.cpp
+        src/BufferLayout.h
+        src/VertexBufferLayout.h
+        src/VertexBuffer.cpp
 )
 
 target_include_directories(OpenGL PRIVATE dependencies)
